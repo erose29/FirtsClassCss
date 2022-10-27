@@ -1,0 +1,94 @@
+*{ 
+background-color: rgb(0, 7, 14);
+color: rgb(219, 219, 248);
+text-align: center;
+font-family: "Rosarivo";
+
+}
+
+#imgPerfil{
+    border-radius: 50px;
+    border: solid 5px;
+    border-color: rgb(118, 118, 119);
+    width: 300px;
+    height: 400px
+    
+}
+.titulos{
+    font-size: 200%;
+    font-style: oblique;
+    
+}
+
+
+h2{
+    font-size: 300%;
+}
+
+#filmografia{
+    display: inline-block
+    
+}
+
+
+.listRef{
+    column-count: 2;
+    list-style-type: decimal;
+    
+}
+
+.flexContenedor{
+    display: flex;
+}
+
+.One{
+    flex-direction: row;
+    
+}
+
+.Two{
+    flex-direction: row;
+    
+}
+
+.Three{
+    flex-direction: row;
+    
+    
+}
+
+#imagEat{
+    width: 400px;
+    height: 500px;
+    margin: 10px;
+    border-radius: 100px;
+    
+}
+
+#imgOscar{
+    width: 400px;
+    height: 500px;
+    margin: 10px;
+    border-radius: 100px;
+    
+}
+
+#imgStar{
+    width: 400px;
+    height: 500px;
+    margin: 10px;
+    border-radius: 100px;
+    border-color: solid rgb(209, 10, 10);
+}
+
+.container__footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(136, 133, 133);
+}
+
+
+
+
+
